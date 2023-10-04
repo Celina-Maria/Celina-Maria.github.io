@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Flamenco&family=Space+Mono&family=VT323&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/ffddf78266.js" crossorigin="anonymous" defer></script>
+        <title>Celina Maria</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul id="menu">
+                    <li><a href=""><i class="fa-solid fa-house" style="color: #9B61FF;"></i></a></li>
+                    <li><a href="#about">sobre</a></li>
+                    <li><a href="#more"><i class="fa-solid fa-file" style="color: #9B61FF;"></i></a></li>
+                    <li><a href="#skills"><i class="fa-solid fa-code" style="color: #9B61FF;"></i></a></li>
+                    <li><a href="#projects">projetos</a></li>
+                    <li><a href="#certificates"><i class="fa-solid fa-graduation-cap" style="color: #9B61FF;"></i></a></li>
+                    <li><a href="#contact"><i class="fa-solid fa-address-book" style="color: #9B61FF;"></i></a></li>
+                </ul>
+            </nav>
+            <div class="home">
+                <figure>
+                    <img id="photo" src="img/me.jpg">
+                </figure>
+                <div id="home">
+                    <h1>Oi!<br>Eu sou Celina Maria</h1>
+                    <p>💪👩💻</p>
+                    <h2>Seja bem-vindo(a) ao meu portfólio</h2>
+                </div>
+            </div>
+        </header>
+        <section id="about">
+            <h3>sobre mim</h3>
+            <article>
+                <p>Durante minha jornada acadêmica, tive a oportunidade de me aventurar em áreas diferentes e estudar um pouco de outros idiomas.<br>
+                    A primeira área com a qual tive contato foi Design de Moda, onde me formei e pude explorar a criatividade, desenvolver 
+                    pensamento estratégico, aprender um pouco sobre empreendedorismo, resolução de problemas e análise do público. Alguns anos 
+                    depois tentei mudar de área indo para Biologia. Não cheguei a concluir, mas pude aprender ensinamentos que levarei para a vida 
+                    com trabalhos em equipe, aulas de campo, palestras, etc. Além do amor por botânica.💚<br>Durante o primeiro ano de isolamento 
+                    por causa da pandemia, decidi fazer uma pausa nos estudos de Biologia e me dedicar aos idiomas. Então peguei duas trilhas de 
+                    cursos integrados de inglês para aprimorar minhas habilidades. Ao finalizar, não quis parar por aí e fiz um curso básico para 
+                    iniciantes de Coreano e outro de Mandarim, que são os idiomas asiáticos que mais chamam minha atenção.<br>Atualmente meu foco é 
+                    Programação, e estou animada para iniciar minha jornada nessa área que combina códigos, solução de problemas, criativdade e 
+                    tantas outras coisas. Ainda não tenho experiência prática além de projetos pessoais e aqueles desenvolvidos durante o curso 
+                    para avaliar minhas habilidades.<br>Sou comprometida, resiliente e acredito no aprendizado contínuo. Estou buscando oportunidades 
+                    para aplicar meus conhecimentos e contribuir para projetos desafiadores.</p>
+            </article>
+        </section>
+        <section id="more">
+            <h3>meu currículo</h3>
+            <button>
+                <a href="./currículo.pdf" target="_blank"><i class="fa-solid fa-download" style="color: #9B61FF;"></i></a>
+            </button>
+        </section>
+        <section id="skills">
+            <img id="codinggif" src="img/coding.gif" />
+            <h3>Front end</h3>
+            <i class="fa-brands fa-html5" style="color: #9B61FF;"></i>
+            <i class="fa-brands fa-css3-alt" style="color: #9B61FF;"></i>
+            <i class="fa-brands fa-square-js" style="color: #9B61FF;"></i>
+        </section>
+        <section id="projects">
+            <h3>projetos</h3>
+                <div class="projetos">
+                    <img src="img/projetos/relogio_digital.png">
+                    <a href="https://celina-maria.github.io/relogio_digital/" target="_blank">Relógio digital</a><br>
+                    <a href="https://github.com/Celina-Maria/relogio_digital" target="_blank">repositório</a>
+                </div>
+                <div class="projetos">
+                    <img src="img/projetos/cidades_e_comunidades_sustentaveis.png">
+                    <a href="https://celina-maria.github.io/ODS11-cidades-e-comunidades-sustentaveis/" target="_blank">Cidades e comunidades sustentáveis<br>Meu primeiro site - Inspira JA</a>
+                    <a href="https://github.com/Celina-Maria/ODS11-cidades-e-comunidades-sustentaveis" target="_blank">repositório</a>
+                </div>
+                <div class="projetos">
+                    <img src="img/projetos/cardapio.png">
+                    <a href="https://celina-maria.github.io/cardapio/" target="_blank">Cardápio fictício</a><br>
+                    <a href="https://github.com/Celina-Maria/cardapio" target="_blank">repositório</a>
+                </div>
+        </section>
+        <section id="certificates">
+            <h3>certificados</h3>
+            <a href="certificado_inspira_JA.png" target="_blank"><img src="img/certificados/certificado_inspira_JA.png" id="certificado_inspira_ja" alt="certificado do curso Meu primeiro site - Elas Na Tech - Inspira JA"></a>
+        </section>
+        <section id="contact">
+            <form id="form" action="" method="post">
+                <fieldset>
+                    <legend><h3>contato</h3></b></legend>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" size="21" value=""><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" size="19" value=""><br><br>
+                    <textarea name="message" rows="10" cols="30"></textarea><br>
+                    <input type="submit" value="enviar">
+                </fieldset>
+            </form>
+            <br>
+        </section>
+        <footer>
+            <div>
+                <a href="https://github.com/Celina-Maria" target="_blank"><i class="fa-brands fa-github" style="color: #9B61FF;"></i></a>
+                <a href="https://www.linkedin.com/in/celina-maria/" target="_blank"><i class="fa-brands fa-linkedin" style="color: #9B61FF;"></i></a>
+            </div>
+            <p>Imagem de fundo: <a href="https://www.canva.com/" target="_blank">Canva</a> - Gif: <a href="https://tenor.com/pt-BR/" target="_blank">tenor</a></p>
+            <p>Celina Maria - 2023</p>
+        </footer>
+    </body>
+</html>

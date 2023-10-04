@@ -1,0 +1,225 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-image: url(img/portfolio_background.png);
+    background-attachment: fixed;
+    width: 100%;
+    font-family: 'Space Mono', monospace;
+    font-size: large;
+}
+
+h3 {
+    text-align: center;
+}
+
+#menu {
+    list-style: none;
+    margin-block-start: auto;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    text-align: center;
+    background-color: #060C1E;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+a:link {
+    color: #9B61FF;
+    text-decoration: none;
+}
+a:visited {
+    color: #EB6FDE;
+}
+li a:hover {
+    background-color: #F6F4FA;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+li a:active {
+    background-color: #9B61FF;
+    color: #28123D;
+}
+
+li {
+    display: flex;
+    float: left;
+    align-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+header {
+    height: 100%;
+    background-size: cover;
+    color: #F6F4FA;
+    text-align: center;
+}
+nav {
+    display: flex;
+}
+#photo {
+    width: 25%;
+    border: solid #9B61FF 3px;
+    border-radius: 50%;
+    align-content: left;
+}
+figure {
+    padding-top: 5%;
+}
+#about {
+    background-color: #9B61FF;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    color: #060C1E;
+    font-weight: bold;
+}
+
+#more {
+    text-align: center;
+    color: #F6F4FA;
+    padding-bottom: 3%;
+}
+button {
+    background-color: #060C1E;
+    border-radius: 10px;
+    border-color: #9B61FF;
+    width: 5%;
+    padding-top: 2,5%;
+    padding-bottom: 2,5%;
+}
+
+#skills {
+    margin: 0;
+    padding: 15;
+    background-color: #000000;
+    text-align: center;
+    color: #F6F4FA;
+}
+#skills i {
+    font-size: xx-large;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 3%;
+}
+#codinggif {
+    width: 30%;
+}
+
+#projects {
+    width: 100%;
+    background-color: #9B61FF;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 3%;
+}
+.projetos {
+    background-color: #00000094;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    max-height: 500px;
+    border: #EB6FDE solid 1px;
+    justify-content: space-between;
+    padding: 1%;
+}
+.projetos img {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#certificates {
+    background-color: #000000;
+    color: #F6F4FA;
+    padding-bottom: 1%;
+    text-align: center;
+}
+#certificado_inspira_ja {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#contact {
+    background-image: url(img/portfolio_background2.png);
+    background-size: cover;
+    width: 100%;
+    color: #F6F4FA;
+    text-align: center;
+}
+
+form {
+    border: #F6F4FA;
+    padding-left: 30%;
+    padding-right: 30%;
+    align-items: center;
+}
+legend {
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    background-color: #060C1E;
+    color: #F6F4FA;
+    text-align: center;
+    display: flex;
+    font-size: xx-large;
+    flex-direction: column;
+}
+footer p {
+    font-size: small;
+}
+footer a:hover {
+    background-color: #F6F4FA;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+footer a:active {
+    background-color: #9B61FF;
+    color: #28123D;
+}
+
+.mobile_menu {
+	display: none;
+
+}
+
+@media screen and (max-width: 730px) {
+    #home {
+        font-size: small;
+        height: 70vh;
+    }
+    #menu {
+        display: none;
+    }
+    .home {
+        padding-top: 30%;
+    }
+    #photo {
+        max-width: 200px;
+        width: 90%;
+    }
+    button {
+        background-color: #060C1E;
+        border-color: #9B61FF;
+        width: 10%;
+        padding-top: 2,5%;
+        padding-bottom: 2,5%;
+        text-align: center;
+    }
+}
